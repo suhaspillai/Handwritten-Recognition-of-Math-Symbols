@@ -8,7 +8,9 @@ from PIL import Image
 from pylab import *
 from scipy import misc
 class Symbol:
-
+    '''
+    The class has methods that extract features from raw data . 
+    '''
     symbol_direction={"left":1,"right":2,"up":3,"down":4}
     
     def __init__(self, symbol_id=None, symbol_list=None,symbol_class=None):
