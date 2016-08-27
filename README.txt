@@ -36,6 +36,8 @@ run evaluate script of lgEval, which takes two directories as input, one contain
 second directory containing (identically named) label graph files providing ground truth.
 Metrics, errors, summaries, and visualizations of recognition errors are produced by the script, and stored in a new directory.
 
+For more information about evaluation tools visit
+http://www.isical.ac.in/~crohme/CROHME_data.html
 
 
 
