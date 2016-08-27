@@ -10,15 +10,15 @@ open Relationship_Classifier.py
 change the path of the following variable
 file_path_till_traininkml ---> to the files where Traininkml files are located
 run python Relationship_Classifier.py
-After this a parse testing folder will be generated , where the lg files are stored
+After this a parse testing folder will be generated , where .lg files are stored
 
 TESTING ENTIRE SYSTEM:
 For Testing the system on classification, segmentation and parsing overall. 
 open CLassifier.py
 change the path of the following variable
-file_path_till_Traininkm ---> to the files where Traininkml files are located
+file_path_till_traininkml ---> to the files where Traininkml files are located
 run python Classifier.py
-After this a parse testing folder will be generated , where the lg files are stored
+After this a parse testing folder will be generated , where .lg files are stored
 
 For Testing, you have to clone following repositories.
 git clone http://saskatoon.cs.rit.edu:10001/root/lgeval.git
@@ -29,7 +29,7 @@ files (i.e label graph). Now, store this is one folder like groundtruth_out (Thi
 MATHML(i.e inkml) file)
 
 When you run Classifier.py file, this will generate .lg files for training/testing data, store all the .lg files in a seperate
-folder (This will be created and files will be stored in that folder.)
+folder (This will be created and files will be stored in that folder).
 
 To EVALUATE the system 
 run evaluate script of lgEval, which takes two directories as input, one containing label graph files to be evaluated, and a
